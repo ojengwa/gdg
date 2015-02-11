@@ -1,7 +1,9 @@
 machine:
   environment:
     SECRET_KEY: kshbhsfjjsfsfhiyfshiusfhihsihih
-    DJANGO_ENV: test
+    NODE_ENV: test
+    BLUEMIX_USER: bernard.ojengwa@andela.co
+    BLUEMIX_PASSWORD: okpanku00
 
 dependencies:
   pre:
