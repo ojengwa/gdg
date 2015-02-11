@@ -24,6 +24,11 @@ deployment:
     commands:
       - cf push andela-talk
 
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: andela-talk
 
 # deployment:
 #   appengine:
