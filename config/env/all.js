@@ -6,7 +6,8 @@ module.exports = {
 		description: 'Official Website of the Google Developers Group, University of Nigeria',
 		keywords: 'GDG, UNN, GDG UNN, Google Developers Groups, University of Nigeria'
 	},
-	port: process.env.PORT || 3000,
+	host: process.env.VCAP_APP_HOST || 'localhost',
+	port: process.env.VCAP_APP_PORT || process.env.PORT || 3000,
 	templateEngine: 'swig',
 	sessionSecret: 'MEAN',
 	sessionCollection: 'sessions',
@@ -18,11 +19,11 @@ module.exports = {
 			],
 			js: [
 				'public/lib/angular/angular.js',
-				'public/lib/angular-resource/angular-resource.js', 
-				'public/lib/angular-cookies/angular-cookies.js', 
-				'public/lib/angular-animate/angular-animate.js', 
-				'public/lib/angular-touch/angular-touch.js', 
-				'public/lib/angular-sanitize/angular-sanitize.js', 
+				'public/lib/angular-resource/angular-resource.js',
+				'public/lib/angular-cookies/angular-cookies.js',
+				'public/lib/angular-animate/angular-animate.js',
+				'public/lib/angular-touch/angular-touch.js',
+				'public/lib/angular-sanitize/angular-sanitize.js',
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js'
