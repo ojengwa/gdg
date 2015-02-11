@@ -1,0 +1,9 @@
+---
+applications:
+- name: gdg
+  memory: 128M
+  instances: 1
+  host: gdg
+  domain: mybluemix.net
+  path: .
+  command: node app.js

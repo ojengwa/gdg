@@ -2,7 +2,7 @@
 
 module.exports = {
 	port: 443,
-	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost/gdg-unn-welcome',
+	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://341b153d-9c12-48d6-964f-210853e2fe3b:9ac0e6d0-a027-4565-a5ce-9b5cb0370665@23.246.199.68:10025/db',
 	assets: {
 		lib: {
 			css: [

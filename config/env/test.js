@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/gdg-unn-welcome-test',
+	db: 'mongodb://localhost/tests',
 	port: 3001,
 	app: {
 		title: 'GDG UNN | Welcome - Test Environment'
